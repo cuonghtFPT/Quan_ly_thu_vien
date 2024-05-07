@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtMaPM"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+<!--            <TextView-->
+<!--                android:layout_width="180dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/txtMaTV"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTenTV"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+
+<!--            >-->
+
+<!--            <TextView-->
+<!--                android:layout_width="180dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/txtMaTT"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="220dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/txtTenTT"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+<!--        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+<!--            <TextView-->
+<!--                android:layout_width="180dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/txtMaSach"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+
+            <TextView
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTenSach"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTrangThai"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="200dp"
+               android:layout_height="wrap_content"
+               android:id="@+id/txtTien"
+               android:textStyle="bold"
+               />
+
+           <TextView
+               android:layout_width="180dp"
+               android:layout_height="wrap_content"
+               android:id="@+id/txtNgay"
+               android:textStyle="bold"
+               />
+       </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            >
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trả sách"
+                android:id="@+id/btnTraSSach"
+                android:textStyle="bold"
+                android:src="@drawable/baseline_save_as_24"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/white"
+                />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_delete_forever_24"
+                android:id="@+id/btndeleteSach"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/white"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

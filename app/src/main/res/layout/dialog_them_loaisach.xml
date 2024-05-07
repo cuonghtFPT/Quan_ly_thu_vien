@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:gravity="center_horizontal"
+        android:textColor="#FF0000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập mã loại"
+        android:id="@+id/txtMaLoai"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#F44336"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mã loại sách"
+        android:textStyle="bold"
+        android:id="@+id/edtMaLoai"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập Tên loại sách"
+        android:id="@+id/txtTenLoai"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#F44336"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên loại"
+        android:textStyle="bold"
+        android:id="@+id/edtTenLoai"
+        />
+
+</LinearLayout>
